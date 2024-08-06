@@ -1,4 +1,8 @@
-
+html{
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust:100% ;
+  -webkit-tap-highlight-color: transparent;
+}
 body {
     
     float: lefts;
@@ -6,9 +10,9 @@ body {
     width: 30%;
     right: 70%s;
     margin: 0px;
-  }
-  button {background-origin: padding-box;
-
+    text-align: left;
+    box-sizing: border-box;
+    
   }
   image{
   max-width: 10rem;
@@ -29,10 +33,12 @@ body {
     background-color:brown;
     justify-content: center;
     align-items: center;
+    
   }
   a{
     position: relative;
     border-radius: 20px;
+    border: 0;
     font-size: large;
     text-transform: uppercase;
     font  width: 70px;
@@ -42,12 +48,26 @@ body {
     display:flex;
     justify-content:center;
     align-items:center;
+    text-decoration: none;
   }
-  a {
-    border-radius: 8px;
-    background:brown;
-    transition: 5s;
+  
+a:hover{
+  background-color: cadetblue;
+      color: black;
+}
+section{
+  align-items: center;
+  position: relative;
+  right: 30px;
+  
+  
+  
+
+}
+
+
+  
     
     
-  }
+  
   
