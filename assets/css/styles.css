@@ -17,22 +17,30 @@ body {
   image{
   max-width: 10rem;
   max-height: 10rem;
-  border: .5rem solid rgba(255, 255, 255, .2)
-  
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  background-color: brown;
+
 }
-   img{ vertical-align: middle;
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    border: 10px;
-     
-  }
-  .box{
-    width: 300px;
-    height: 1000px;
-    background-color:brown;
-    justify-content: center;
-    align-items: center;
+img{
+  height: 200px;
+  width:200px;
+  border-radius: 50%;
+  border: 5rm solid;
+
+
+}
+   
+  .container{
+    display: flex;
+    flex box:center;
+    flex-direction:row;
+    align-items:flex-start;
+    gap:1em;
+    
+  
+
     
   }
   a{
@@ -55,15 +63,25 @@ a:hover{
   background-color: cadetblue;
       color: black;
 }
-section{
+.box1{
+  background-color: brown;
   align-items: center;
-  position: relative;
-  right: 30px;
-  
-  
-  
-
+  width: 1000px;
+  height: 1000px;
+  align-self: baseline;
 }
+.box2{
+  text-decoration: none;
+  text-align: center;
+  flex-grow: 50%;
+  
+}
+h1{
+  text-align: center;
+  text-decoration: border;
+}
+
+
 
 
   
