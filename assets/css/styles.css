@@ -1,5 +1,5 @@
 html{
-  scroll-behavior: smooth;
+  
   -webkit-text-size-adjust:100% ;
   -webkit-tap-highlight-color: transparent;
 }
@@ -64,23 +64,45 @@ a:hover{
       color: black;
 }
 .box1{
+  display: block;
   background-color: brown;
   align-items: center;
   width: 1000px;
   height: 1000px;
   align-self: baseline;
+  
+ 
 }
 .box2{
   text-decoration: none;
   text-align: center;
-  flex-grow: 50%;
+  flex:50px;
+  
   
 }
 h1{
   text-align: center;
   text-decoration: border;
+  text-size-adjust: 10rm;
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-family: sans-serif;
+  font-weight: 700px;
+
+
 }
 
+.own{
+  color:brown;
+}
+.own-email{
+  color: blue;
+}
+.fa-brands{
+  font-size: 700px;
+  display: inline-block;
+  font-size: inherit;
+}
 
 
 
