@@ -1,5 +1,5 @@
 html{
-  
+  scroll-behavior: smooth;
   -webkit-text-size-adjust:100% ;
   -webkit-tap-highlight-color: transparent;
 }
@@ -37,7 +37,9 @@ img{
     flex box:center;
     flex-direction:row;
     align-items:flex-start;
-    gap:1em;
+    gap: 20px;;
+    justify-content: ;
+
     
   
 
@@ -70,13 +72,24 @@ a:hover{
   width: 1000px;
   height: 1000px;
   align-self: baseline;
-  
+
+  text-align: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        width: 17rem;
+        height: 100vh
  
 }
 .box2{
   text-decoration: none;
   text-align: center;
-  flex:50px;
+display: block;
+position: relative;
+right: 0rem;
+left: 20rem;
   
   
 }
@@ -99,10 +112,17 @@ h1{
   color: blue;
 }
 .fa-brands{
-  font-size: 700px;
-  display: inline-block;
-  font-size: inherit;
+  size: 40px;
+  height: 100px;
+  color: rgb(255, 0, 43);
+
+background-color: rgb(22, 25, 24);
 }
+.i{
+  height: 50rem;
+  color: black;
+}
+
 
 
 
