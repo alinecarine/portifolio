@@ -84,16 +84,17 @@ a:hover{
  
 }
 .box2{
+  position: relative;
+  flex-grow: 100%;
   text-decoration: none;
   text-align: center;
 display: block;
-position: relative;
 right: 0rem;
 left: 20rem;
   
   
 }
-h1{
+h1,h2{
   text-align: center;
   text-decoration: border;
   text-size-adjust: 10rm;
@@ -112,15 +113,40 @@ h1{
   color: blue;
 }
 .fa-brands{
-  size: 40px;
-  height: 100px;
-  color: rgb(255, 0, 43);
-
-background-color: rgb(22, 25, 24);
+ color: rgb(171, 171, 181);
+ height: 10rem;
 }
-.i{
-  height: 50rem;
-  color: black;
+.fa-facebook{
+  font-size: 5rem;
+}
+.fa-square-twitter{
+  font-size: 5rem;
+}
+.fa-linkedin{
+  font-size: 5rem;
+}
+.fa-github{
+  font-size: 5rem;
+}
+.date1{
+  position: relative;
+  left: 60rem;
+  align-items: center;
+  color: brown;
+}
+.date2{
+  position: relative;
+  left: 60rem;
+  align-items: center;
+  color: brown;
+}
+.date3{
+  position: relative;
+  left: 70rem;
+  align-items: center;
+  color: brown;
+
+  
 }
 
 
