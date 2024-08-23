@@ -38,7 +38,7 @@ img{
     flex-direction:row;
     align-items:flex-start;
     gap: 20px;;
-    justify-content: ;
+  
 
     
   
@@ -62,7 +62,7 @@ img{
   }
   
 a:hover{
-  background-color: cadetblue;
+  background-color: rgb(98, 25, 106);
       color: black;
 }
 .box1{
@@ -94,16 +94,17 @@ left: 20rem;
   
   
 }
-h1,h2{
+h1,{
   text-align: center;
   text-decoration: border;
-  text-size-adjust: 10rm;
+  text-size-adjust:10px;
   text-transform: uppercase;
-  font-size: 4rem;
+  font-size: 10px;
   font-family: sans-serif;
   font-weight: 700px;
-
-
+}
+h2{
+  font-size: 2rem;
 }
 
 .own{
@@ -130,19 +131,19 @@ h1,h2{
 }
 .date1{
   position: relative;
-  left: 60rem;
+  left: 70rem;
   align-items: center;
   color: brown;
 }
 .date2{
   position: relative;
-  left: 60rem;
+  left:80.9rem;
   align-items: center;
   color: brown;
 }
 .date3{
   position: relative;
-  left: 70rem;
+  left: 60.5rem;
   align-items: center;
   color: brown;
 
