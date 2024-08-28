@@ -1,160 +1,108 @@
-html{
-  scroll-behavior: smooth;
-  -webkit-text-size-adjust:100% ;
-  -webkit-tap-highlight-color: transparent;
-}
-body {
-    
-    float: lefts;
-    position: absolute;
-    width: 30%;
-    right: 70%s;
-    margin: 0px;
-    text-align: left;
-    box-sizing: border-box;
-    
-  }
-  image{
-  max-width: 10rem;
-  max-height: 10rem;
-  display: flex;
-  justify-content: left;
-  align-items: left;
-  background-color: brown;
 
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
-img{
-  height: 200px;
-  width:200px;
-  border-radius: 50%;
-  border: 5rm solid;
-
-
+body{
+font-family: "Saira Extra Condensed", sans-serif;
 }
-   
-  .container{
-    display: flex;
-    flex box:center;
-    flex-direction:row;
-    align-items:flex-start;
-    gap: 20px;;
-  
-
-    
-  
-
-    
-  }
-  a{
-    position: relative;
-    border-radius: 20px;
-    border: 0;
-    font-size: large;
-    text-transform: uppercase;
-    font  width: 70px;
-    padding: 10px 30px;
-    transition:0.5s;
-    color:white;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    text-decoration: none;
-  }
-  
-a:hover{
-  background-color: rgb(98, 25, 106);
-      color: black;
-}
-.box1{
-  display: block;
-  background-color: brown;
-  align-items: center;
-  width: 1000px;
-  height: 1000px;
-  align-self: baseline;
-
-  text-align: center;
-        position: fixed;
-        top: 0;
-        left: 0;
-        display: flex;
-        flex-direction: column;
-        width: 17rem;
-        height: 100vh
- 
-}
-.box2{
-  position: relative;
-  flex-grow: 100%;
-  text-decoration: none;
-  text-align: center;
-display: block;
-right: 0rem;
-left: 20rem;
-  
-  
-}
-h1,{
-  text-align: center;
-  text-decoration: border;
-  text-size-adjust:10px;
-  text-transform: uppercase;
-  font-size: 10px;
-  font-family: sans-serif;
-  font-weight: 700px;
-}
-h2{
-  font-size: 2rem;
+.container{
+	display: flex;
 }
 
-.own{
-  color:brown;
+.navigations{
+	background-color: #bd5d38;
+	width: 270px;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
 }
-.own-email{
-  color: blue;
+.profile_image.{
+	margin-bottom: 2rem;
+}
+.profile_image img{
+	border: 0.5rem solid #fd7e14;
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+.nav_items{
+	list-style: none;
+}
+.nav_items li{
+	margin: 1rem 0;
+}
+.nav_items li a{
+	color: rgba(255,255,255,.5);
+	text-decoration: none;
+	font-size: 1.4rem;
+
+}
+.nav_items li a:hover{
+	color: rgba(255,255,255,1);
+}
+main{
+	width: calc(100% - 280px);
+	padding: 0 4rem;
+}
+#about{
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+	flex-direction: column;
+}
+.title{
+	margin-bottom: 2rem;
+}
+.title h1{
+	font-size: 6rem;
+	line-height: 5.5rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #343a40;
+}
+.title h1 span{
+	color: #bd5d38;
+}
+.title h4{
+	font-size: 1.35rem;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #868e96;
+}
+.about_email{
+	color:#bd5d38;
+}
+.title_description{
+	color: #868e96;
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	font-weight: 500;
+	margin-bottom: 4rem;
+}
+.fa-brand{
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+}
+.social-media{
+	text-decoration: none;
+	cursor: pointer;
+	background-color:#495057;
+	border-radius: 50%;
+	height: 4rem;
+	width: 4rem;
+	text-align: center;
+	padding: 1rem 0;
+}
+.social-media:hover{
+	background-color: #bd5d38;
 }
 .fa-brands{
- color: rgb(171, 171, 181);
- height: 10rem;
+	font-size: 2rem;
+	color: #fff;
 }
-.fa-facebook{
-  font-size: 5rem;
-}
-.fa-square-twitter{
-  font-size: 5rem;
-}
-.fa-linkedin{
-  font-size: 5rem;
-}
-.fa-github{
-  font-size: 5rem;
-}
-.date1{
-  position: relative;
-  left: 70rem;
-  align-items: center;
-  color: brown;
-}
-.date2{
-  position: relative;
-  left:80.9rem;
-  align-items: center;
-  color: brown;
-}
-.date3{
-  position: relative;
-  left: 60.5rem;
-  align-items: center;
-  color: brown;
-
-  
-}
-
-
-
-
-  
-    
-    
-  
-  
