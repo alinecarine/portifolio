@@ -19,6 +19,7 @@ font-family: "Saira Extra Condensed", sans-serif;
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
+	
 }
 .profile_image.{
 	margin-bottom: 2rem;
@@ -105,4 +106,25 @@ main{
 .fa-brands{
 	font-size: 2rem;
 	color: #fff;
+}
+#experiance{
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+	flex-direction: column;
+}
+
+.inter{
+	color: #495057;
+}
+.experia h1{
+	font-size: 6rem;
+	line-height: 5.5rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #343a40;
+}
+.date{
+	color: #bd5d38;
+	text-align: right !important;
 }
