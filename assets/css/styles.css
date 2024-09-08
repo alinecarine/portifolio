@@ -19,6 +19,7 @@ font-family: "Saira Extra Condensed", sans-serif;
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
+	position: fixed;
 	
 }
 .profile_image.{
@@ -48,7 +49,10 @@ font-family: "Saira Extra Condensed", sans-serif;
 }
 main{
 	width: calc(100% - 280px);
-	padding: 0 4rem;
+	padding:  0 4rem;
+	position: relative;
+	left: 15rem;
+	
 }
 #about{
 	display: flex;
@@ -65,6 +69,7 @@ main{
 	font-weight: 700;
 	text-transform: uppercase;
 	color: #343a40;
+	text-wrap: nowrap;
 }
 .title h1 span{
 	color: #bd5d38;
@@ -74,6 +79,7 @@ main{
 	font-weight: 500;
 	text-transform: uppercase;
 	color: #868e96;
+	text-wrap: nowrap;
 }
 .about_email{
 	color:#bd5d38;
@@ -81,7 +87,7 @@ main{
 .title_description{
 	color: #868e96;
 	font-size: 1.3rem;
-	text-transform: uppercase;
+	text-transform: lowercase;
 	font-weight: 500;
 	margin-bottom: 4rem;
 }
@@ -124,7 +130,71 @@ main{
 	text-transform: uppercase;
 	color: #343a40;
 }
+.date-present{
+	text-align: right !important;
+	
+}
 .date{
 	color: #bd5d38;
-	text-align: right !important;
+	font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.experiance-disc{
+	margin-bottom: 3rem;
+}
+.experiance-disc h1{
+	font-size: 3.5rem;
+	font-weight: 700;
+	text-transform:uppercase;
+	color:#343a40;title-exp
+}
+.sinior-web{
+	text-transform: uppercase;
+	color: #343a40;
+	font-weight: 700;
+	font-size: 1rem;
+}
+.inter{
+	color: #868e96;
+	font-size: 1.35rem;
+	font-weight: 500;
+}
+.exp-disc{
+	color: #868e96;
+	text-transform: capitalize;
+}
+.education-sect{
+	font-size: 3.5rem;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.schools{
+	text-transform: uppercase;
+	color: #343a40;
+	font-weight: 700;
+	font-size: 1.35rem;
+	font-family: 'Saira Extra Condensed', serif;
+	
+}
+.title{
+	color: #495057;
+}
+.bach{
+	color: #868e96;
+	font-size: 1.35rem;
+	font-weight: 500;
+}
+.education-sect h4{
+	text-transform: lowercase;
+	font-size: 1.35rem;
+	font-weight: 500;
+	color: #868e96;
+}
+ .tittle{
+	color:#495057; 
+	font-size: 3.5rem;
+	font-weight: 700;
+	text-transform: uppercase;
+}
 }
