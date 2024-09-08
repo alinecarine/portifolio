@@ -97,6 +97,7 @@ main{
 	gap: 2rem;
 }
 .social-media{
+	
 	text-decoration: none;
 	cursor: pointer;
 	background-color:#495057;
@@ -197,4 +198,63 @@ main{
 	font-weight: 700;
 	text-transform: uppercase;
 }
+.programing-languages{
+	text-decoration: none;
+	cursor: pointer;
+	background-color:#495057;
+	border-radius: 50%;
+	height: 4rem;
+	width: 4rem;
+	text-align: center;
+	padding: 1rem 0;
+}
+.programing-languages :hover{
+	background-color: #bd5d38
+}
+.workflows{
+	
+	font size: 2.5rem;
+	font weight:700;
+	color:#495057;
+}
+.workflows-list{
+	font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+	color: #868e96;
+	align-content: center;
+}
+.workflows-list :hover{
+	color: rgba(255,255,255,1);
+}
+.expre-diskip{
+		font-size: 1rem;
+		font-weight: 500;
+		color: #868e96;
+	}
+
+.AWARD-list{
+	color:#495057; 
+	font-size: 3.5rem;
+	font-weight: 700;
+	text-transform: uppercase;
+
+}
+ul{
+	color: #868e96;
+	list-style-type: none;
+}
+.fa-li {
+position: absolute;
+left: 3rem;
+width: 2.14285714em;
+right: 3rem;
+text-align: center;
+color: #fd7;
+}
+.fa-trophy{
+	position:relative;
+	left: 15rem;
+
 }
