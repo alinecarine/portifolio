@@ -9,6 +9,7 @@ font-family: "Saira Extra Condensed", sans-serif;
 }
 .container{
 	display: flex;
+	
 }
 
 .navigations{
@@ -49,7 +50,7 @@ font-family: "Saira Extra Condensed", sans-serif;
 }
 main{
 	width: calc(100% - 280px);
-	padding:  0 4rem;
+	padding:  0 6rem;
 	position: relative;
 	left: 15rem;
 	
@@ -59,6 +60,8 @@ main{
 	justify-content: center;
 	height: 100vh;
 	flex-direction: column;
+	
+        
 }
 .title{
 	margin-bottom: 2rem;
@@ -213,7 +216,7 @@ main{
 }
 .workflows{
 	
-	font size: 2.5rem;
+	font size: 3.25rem;
 	font weight:700;
 	color:#495057;
 }
@@ -225,9 +228,7 @@ main{
 	color: #868e96;
 	align-content: center;
 }
-.workflows-list :hover{
-	color: rgba(255,255,255,1);
-}
+
 .expre-diskip{
 		font-size: 1rem;
 		font-weight: 500;
@@ -246,15 +247,12 @@ ul{
 	list-style-type: none;
 }
 .fa-li {
-position: absolute;
-left: 3rem;
-width: 2.14285714em;
-right: 3rem;
-text-align: center;
-color: #fd7;
+	color: #fd7e14;
+
 }
-.fa-trophy{
-	position:relative;
-	left: 15rem;
+
+.award-thropy{
+	display: inline-block;
+    
 
 }
