@@ -55,14 +55,14 @@ main{
 	left: 15rem;
 	
 }
-#about{
+
+#ABOUT{
 	display: flex;
 	justify-content: center;
 	height: 100vh;
 	flex-direction: column;
-	
+}	
         
-}
 .title{
 	margin-bottom: 2rem;
 }
@@ -117,13 +117,12 @@ main{
 	font-size: 2rem;
 	color: #fff;
 }
-#experiance{
+#EXPERIANCE{
 	display: flex;
 	justify-content: center;
 	height: 100vh;
 	flex-direction: column;
 }
-
 .inter{
 	color: #495057;
 }
@@ -212,12 +211,12 @@ main{
 	padding: 1rem 0;
 }
 .programing-languages :hover{
-	background-color: #bd5d38
+	color: #bd5d38
 }
 .workflows{
 	
 	font size: 3.25rem;
-	font weight:700;
+	font weight:700;cd
 	color:#495057;
 }
 .workflows-list{
@@ -256,3 +255,5 @@ ul{
     
 
 }
+
+ 
